@@ -1,0 +1,38 @@
+REVUE RÉGLEMENTAIRE — LABORATOIRE ARMS FICTIF
+Date de consultation : 12 novembre 2026. Sources primaires uniquement.
+
+Périmètre à déclarer : prototype pédagogique de détection de fraude, données synthétiques, aucun système ni contrôle réel de BNP Paribas évalué. DORA est pertinent par hypothèse d'un établissement de crédit (art.2). MiCA dépend des services crypto effectivement fournis. RGPD : les contrôles ci-dessous sont illustratifs tant qu'aucune personne réelle n'est identifiable.
+
+HUIT CONTRÔLES À TRACER
+
+C01 — DORA art.8(1),(4),(5) : inventorier composants, flux et dépendances externes. Preuve lab proposée : architecture.json, liste fournisseurs, carte des surfaces. Un fournisseur critique au sens métier n'est pas nécessairement un prestataire désigné critique par les autorités.
+C02 — DORA art.9(2),(3) : protéger authenticité et intégrité des données. Test proposé : événement de transaction modifié, contrôle de signature et provenance, rejet explicite en mode corrigé.
+C03 — DORA art.10(1),(2) : détecter anomalies et défaillances. Test proposé : altération/silence du fournisseur, alerte horodatée et chemin de réaction. Un faux négatif fraude ne démontre pas à lui seul une violation de cet article.
+C04 — DORA art.24 et 25 : organiser des tests de résilience appropriés et tracer leur suivi. Preuve proposée : tests cyber et data/IA reproductibles, résultats avant/après et actions assignées. Le lab n'est pas un TLPT réglementaire.
+C05 — DORA art.28(3),(4) : registre des contrats TIC et évaluation des risques tiers. Preuve proposée : fournisseur, service, fonction supportée, dépendance et décision de continuité documentés.
+Source C01–C05 : https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?os=svergi&uri=CELEX%3A32022R2554
+
+C06 — MiCA art.68(7) : continuité et résilience des services crypto. Si le périmètre inclut la conservation pour clients, art.75(2),(3) : registre de positions et protection de la garde. Tests proposés : rapprochement indépendant du registre et reprise après incident. Statut « conditionnel » si ARMS consomme seulement une API crypto sans service MiCA établi.
+Sources : https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=consolidation%3A2023R1114%2F20240109_0010010
+https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?qid=1789901572568&uri=CELEX%3A02023R1114-20240109
+
+C07 — RGPD art.5(1)(c),(e),32(1) : minimiser données et rétention, protéger leur confidentialité/intégrité et tester les mesures. Preuves proposées : identifiants synthétiques, logs sans données personnelles, politique de purge et test d'accès. Un journal absent est un manque de preuve, pas automatiquement un traitement illicite. Art.22 à analyser uniquement pour décisions exclusivement automatisées ayant un effet juridique ou analogue significatif.
+Sources : https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1612089500634&uri=CELEX%3A32016R0679
+https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?qid=1788297533580&uri=CELEX%3A02016R0679-20160504
+
+C08 — AI Act : classer d'abord la finalité. Annexe III 5(b) exclut la détection de fraude financière du cas crédit/solvabilité. ARMS exclusivement antifraude n'est donc pas haut risque par ce seul fondement. Les contrôles des art.10,12,14,15 (données, logs, supervision, robustesse) sont des bonnes pratiques du lab, ou des exigences conditionnelles si une autre finalité haut risque est établie. Test proposé : conserver version du modèle, hash des données, décisions et détection des perturbations. Ne pas déclarer « infraction AI Act » automatiquement.
+Sources : https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3
+https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?_fsi=ItqQV91S&uri=OJ%3AL_202401689
+
+POINT DE DATE IMPORTANT
+Règlement modificatif (UE) 2026/1744 art.1 point40 : exigences haut risque du chapitre III sections1–3 (hors art.6(5)) applicables le 2 décembre 2027 pour Annexe III et le 2 août 2028 pour Annexe I. Ne pas les présenter comme déjà exigibles le 12 novembre 2026.
+Source : https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32026R1744
+
+STRUCTURE DES CONSTATS
+Étiquettes conseillées : « Écart démontré dans le lab », « Preuve insuffisante », « Applicable sous hypothèse », « Bonne pratique ».
+Pour chaque résultat : identifiant test, observation mesurée, artefact de preuve, article, applicabilité, recommandation, propriétaire proposé, critère de retest. Une mesure réussie prouve le test, pas la conformité générale.
+Ne pas inventer une amende. L'impact financier doit être un montant de transactions synthétiques exposées ou une perte sous hypothèse explicitée. La probabilité choisie pour un score n'est pas une fréquence observée en production.
+
+SKILLS DU TEMPLATE EXAMINÉS
+ict-risk-framework-check : applicability before gaps, evidence per row, no certification claim.
+ai-act-risk-classification : purpose/context first, role, conditional obligations. Ses dates 2026 sont confirmées par le texte modificatif primaire.

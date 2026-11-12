@@ -1,0 +1,124 @@
+﻿Atelier pratique : Conformité et Finance Agentique Mise à l'épreuve des systèmes
+
+
+Objectif de l'atelier
+Il est fondamental de reconnaître que la conformité réglementaire (DORA, MiCA, AI Act) excède la simple vérification d'une liste de contrôle. Afin de valider l'efficacité d'un système, nous procéderons à des simulations d’attaque réalistes au moyen d'agents IA autonomes. Cette méthodologie constitue le moyen le plus probant d'évaluer la résilience opérationnelle.Déroulement de l'atelier
+
+
+Format
+* Groupes de 4 participants.
+* Chaque équipe est chargée de concevoir une Red Team (équipe d'attaque) composée de 5 agents IA.
+Note importante :
+Votre rôle n'est pas d'incarner les agents, mais de définir leur logique et d'orchestrer leurs interventions.
+Contexte de la mission
+Suite à l'entrée en vigueur de l'EU AI Act, le Comité Exécutif (COMEX) de BNP Paribas requiert une assurance quant à la pleine préparation du système ARMS (Agentic Risk Monitoring System) avant sa mise en production.
+
+
+Notre mission :
+Simuler des scénarios d’attaque concrets ciblant ce système agentique, qui est soumis aux impératifs de DORA, MiCA et de la gouvernance IA.
+
+
+La Mission Principale
+Chaque groupe doit élaborer une Red Team agentique dont les attributions comprennent :
+* Tester la résilience globale du système.
+* Identifier les vulnérabilités réglementaires non anticipées.
+* Simuler des attaques crédibles (englobant la cybersécurité, la gestion des données et la détection des comportements anormaux).
+Les 5 Agents à concevoir
+Framework : 
+* https://docs.agno.com 
+* https://ai-sdk.dev/docs/introduction 
+
+
+1. Agent "Reconnaissance" (Cartographie)
+Rôle
+* Identifier les dépendances critiques du système.
+* Cartographier les flux de données.
+* Détecter les vecteurs d'entrée potentiels pour une compromission.
+Informations de base (Inputs)
+* L'architecture du système ARMS.
+* La liste des fournisseurs externes (services cloud, APIs cryptographiques, etc.).
+Résultat (Output)
+* Une carte détaillée des surfaces d'attaque.
+2. Agent "Attaquant" (Simulation d’attaque)
+Rôle
+* Exécuter des simulations d'attaques à haute probabilité d'occurrence.
+Exemples :
+* Manipulation de données de transaction.
+* Injection de signaux fallacieux visant à contourner les contrôles LCB-FT (Lutte Contre le Blanchiment de capitaux et le Financement du Terrorisme).
+* Exploitation des faiblesses au sein des APIs de cryptomonnaies.
+Objectifs de test
+* La robustesse des modèles d'ARMS.
+* La dépendance et la sensibilité du système aux données injectées.
+3. Agent "IA Adversaire" (Attaque sur l'Intelligence Artificielle)
+Rôle
+* Cibler le modèle d'IA lui-même.
+Exemples :
+* Data poisoning (empoisonnement des données d'entraînement).
+* Perturbation subtile des données d'entrée (input perturbation).
+* Induction de biais dans la détection des fraudes.
+Question centrale
+Est-il possible de manipuler l'IA pour qu'elle prenne des décisions erronées, sans provoquer l'arrêt du système ?
+4. Agent "Compliance Breaker" (Détecteur de Non-Conformité)
+Rôle
+* Identifier formellement les infractions réglementaires.
+Exemples :
+* Traitement de données personnelles non conforme (RGPD/AI Act).
+* Absence de traçabilité des décisions clés.
+* Décisions du système non justifiables ou explicables.
+Liens directs avec la réglementation :
+* DORA → Dépendances critiques externes non maîtrisées.
+* MiCA → Gestion des actifs crypto non sécurisée.
+* AI Act → Défaut de documentation et d’auditabilité.
+5. Agent "Impact & Risk Scoring" (Mesure des Conséquences)
+Rôle
+* Évaluer les répercussions de l'attaque sur l'activité de l'établissement.
+Exemples :
+* Calcul de la perte financière estimée.
+* Évaluation du risque réglementaire encouru.
+* Mesure de l'impact sur la réputation de la banque.
+Résultat (Output)
+* Un score de risque explicite (par exemple, sur une échelle de 0 à 1, ou Faible/Moyen/Élevé).
+* Une hiérarchisation des vulnérabilités découvertes.
+    Le Cadre d'Analyse (Essentiel)
+Votre Red Team devra structurer son analyse selon les éléments suivants :
+1. La Cible 
+* Quels systèmes sont visés ?
+* Quels flux de données sont concernés ?
+
+
+
+
+    2. L'Équipe (Agents)
+* Rôle précis de chaque agent.
+* Description des interactions inter-agents.
+    3. Les Scénarios 
+* Minimum 2 scénarios requis :
+   * Une attaque cyber "conventionnelle".
+   * Une attaque ciblant spécifiquement l'IA ou les données (data/IA attack).
+    4. La Réaction
+* Quel a été le comportement du système ARMS pendant l'attaque ? Y a-t-il eu détection ?
+    5. Le Problème Réglementaire (Gap réglementaire)
+* Où le système a-t-il failli par rapport aux exigences de DORA ou de MiCA ?
+     6. Les Solutions (Recommandation)
+* Quelles actions correctives concrètes doivent être mises en œuvre pour remédier à la faille ?
+Le Livrable
+3 diapositives maximum (précises et concises)
+Diapositive 1- Architecture de votre Red Team
+* Présentation synthétique des 5 agents.
+* Schéma illustrant leurs interactions.
+      Diapositive 2- Le Scénario d’Attaque
+* Description détaillée du déroulement de l'attaque choisie (étapes).
+* Identification du point de rupture (l'échec critique du système).
+     
+________________
+ Diapositive 3- Synthèse et Conclusions
+* Énoncé des failles concrètes détectées.
+* L'impact mesuré (selon l'Agent 5).
+* Les recommandations d'amélioration.
+Fournir le lien vers le code source de l'agent, disponible sur GitHub.
+
+
+Ressources : 
+* https://openrouter.ai/models 
+* https://ai-sdk.dev/docs/introduction 
+Epitalab © 2026

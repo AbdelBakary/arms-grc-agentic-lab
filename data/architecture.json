@@ -1,0 +1,70 @@
+{
+  "fictional": true,
+  "purpose": "Laboratoire ARMS de détection de fraude, sans décision de crédit ni exécution de paiement.",
+  "assets": [
+    {
+      "id": "gateway",
+      "role": "Réception des événements synthétiques",
+      "critical": true
+    },
+    {
+      "id": "crypto-api",
+      "role": "Fournisseur externe simulé",
+      "critical": true
+    },
+    {
+      "id": "feature-store",
+      "role": "Montant et vélocité signés",
+      "critical": true
+    },
+    {
+      "id": "training",
+      "role": "Jeu de données versionné et labels",
+      "critical": true
+    },
+    {
+      "id": "model",
+      "role": "Régression logistique entraînée localement",
+      "critical": true
+    },
+    {
+      "id": "audit",
+      "role": "Journal des décisions et versions",
+      "critical": true
+    }
+  ],
+  "flows": [
+    [
+      "crypto-api",
+      "gateway",
+      "Transaction non fiable à vérifier"
+    ],
+    [
+      "gateway",
+      "feature-store",
+      "Caractéristiques de transaction"
+    ],
+    [
+      "training",
+      "model",
+      "Apprentissage et promotion du modèle"
+    ],
+    [
+      "feature-store",
+      "model",
+      "Évaluation du risque de fraude"
+    ],
+    [
+      "model",
+      "audit",
+      "Décision, version, motifs et preuve"
+    ]
+  ],
+  "providers": [
+    {
+      "id": "crypto-api",
+      "service": "API crypto fictive",
+      "fallback": "Revue humaine et mise en quarantaine"
+    }
+  ]
+}

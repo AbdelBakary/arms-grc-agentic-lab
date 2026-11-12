@@ -1,0 +1,25 @@
+VÉRIFICATIONS EFFECTUÉES LE 12 NOVEMBRE 2026
+
+TypeScript : npm run typecheck, succès.
+Tests : npm test, 6 tests réussis.
+Outils : npm run lab, 5 étapes terminées, 4 versions de scénarios.
+IA locale : npm run agents, 5 agents terminés avec Ollama et le SDK Vercel.
+Chaque agent a appelé exactement une fois son outil, puis produit un commentaire.
+Run IA de référence : 2026-11-12T15-03-42-435Z.
+Ollama 0.40.16 ; modèle arms-qwen3 dérivé de qwen3:0.6b ; CPU.
+Interface : AppTest Streamlit sans exception, 4 métriques.
+Interface : vérification visuelle dans le navigateur.
+Support : exactement 3 diapositives rendues et contrôlées visuellement.
+
+MESURES
+Cyber vulnérable : 16 fraudes manquées / 20, exposition 324 500 €.
+Cyber corrigé : 0 fraude manquée, 16 rejets d’intégrité.
+Poisoning vulnérable : 20 fraudes manquées / 20, exposition 392 500 €.
+Poisoning corrigé : 0 fraude manquée, entraînement non approuvé refusé.
+Faux positifs : 0 / 20 dans chacune des quatre versions.
+
+LIMITES
+Modèle LLM léger : les commentaires bruts peuvent contenir des erreurs de chiffres
+ou de formulation. Ils sont affichés comme non validés. Le code, les graphiques,
+le support final et les scores utilisent exclusivement les mesures des outils.
+Ces résultats ne prouvent ni conformité générale ni robustesse de production.

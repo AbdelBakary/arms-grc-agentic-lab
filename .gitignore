@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.cursor/
+
+reports/.run.lock
+reports/latest.tmp
+reports/last-error.json
+reports/*.log
+.cache/
