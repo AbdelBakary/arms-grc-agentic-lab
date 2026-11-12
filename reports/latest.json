@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "2026-11-12T15-03-42-435Z",
-  "startedAt": "2026-11-12T15:03:42.435Z",
-  "finishedAt": "2026-11-12T15:04:11.499Z",
+  "runId": "2026-11-12T15-15-13-789Z",
+  "startedAt": "2026-11-12T15:15:13.789Z",
+  "finishedAt": "2026-11-12T15:15:43.396Z",
   "mode": "ollama",
   "fictional": true,
   "architecture": {
@@ -166,13 +166,13 @@
       "toolCalls": [
         "map_surface"
       ],
-      "durationMs": 4365,
+      "durationMs": 5139,
       "model": "arms-qwen3",
       "usage": {
         "inputTokens": 761,
         "inputTokenDetails": {
-          "noCacheTokens": 756,
-          "cacheReadTokens": 5
+          "noCacheTokens": 758,
+          "cacheReadTokens": 3
         },
         "outputTokens": 64,
         "outputTokenDetails": {
@@ -251,7 +251,7 @@
       "toolCalls": [
         "simulate_cyber"
       ],
-      "durationMs": 4300,
+      "durationMs": 4260,
       "model": "arms-qwen3",
       "usage": {
         "inputTokens": 1193,
@@ -337,7 +337,7 @@
       "toolCalls": [
         "simulate_poisoning"
       ],
-      "durationMs": 4257,
+      "durationMs": 5319,
       "model": "arms-qwen3",
       "usage": {
         "inputTokens": 1218,
@@ -519,7 +519,7 @@
       "toolCalls": [
         "map_regulatory_gaps"
       ],
-      "durationMs": 10582,
+      "durationMs": 10030,
       "model": "arms-qwen3",
       "usage": {
         "inputTokens": 2207,
@@ -610,7 +610,7 @@
       "toolCalls": [
         "score_impact"
       ],
-      "durationMs": 5551,
+      "durationMs": 4844,
       "model": "arms-qwen3",
       "usage": {
         "inputTokens": 1056,

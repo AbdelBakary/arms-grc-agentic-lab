@@ -1,0 +1,5 @@
+scenario,hardened,tested,detected,falseNegatives,falsePositives,detectionRate,exposedEUR
+cyber,false,40,4,16,0,0.2,324500
+cyber,true,40,20,0,0,1,0
+poisoning,false,40,0,20,0,0,392500
+poisoning,true,40,20,0,0,1,0

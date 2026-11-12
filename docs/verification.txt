@@ -23,3 +23,12 @@ Modèle LLM léger : les commentaires bruts peuvent contenir des erreurs de chif
 ou de formulation. Ils sont affichés comme non validés. Le code, les graphiques,
 le support final et les scores utilisent exclusivement les mesures des outils.
 Ces résultats ne prouvent ni conformité générale ni robustesse de production.
+
+RELECTURE DU SUJET ET DÉMONSTRATION
+Sujet relu le 12 novembre : ajout d’une mini vidéo obligatoire et du lien Ollama.
+Nouveau run IA filmé : 2026-11-12T15-15-13-789Z, cinq outils exécutés avec succès.
+Typecheck et six tests de nouveau réussis.
+MP4 : 81,266667 secondes, 720×1280, H.264, 15 images/s, sans audio.
+Décodage intégral des 1219 images réussi et lecture du fichier jusqu’à la fin.
+PDF : trois pages, rendues et vérifiées, lien GitHub sur la dernière page.
+Projet de montage reproductible : demo/projet-demo.zip.

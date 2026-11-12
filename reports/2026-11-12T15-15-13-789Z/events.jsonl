@@ -1,0 +1,10 @@
+{"at":"2026-11-12T15:15:13.798Z","message":"Reconnaissance : démarrage (ollama)"}
+{"at":"2026-11-12T15:15:18.936Z","message":"Reconnaissance : terminé, preuve 5e02ee6bc407"}
+{"at":"2026-11-12T15:15:18.941Z","message":"Attaquant : démarrage (ollama)"}
+{"at":"2026-11-12T15:15:23.199Z","message":"Attaquant : terminé, preuve f3d2ff6e6896"}
+{"at":"2026-11-12T15:15:23.199Z","message":"IA Adversaire : démarrage (ollama)"}
+{"at":"2026-11-12T15:15:28.518Z","message":"IA Adversaire : terminé, preuve 6676bc15a581"}
+{"at":"2026-11-12T15:15:28.520Z","message":"Compliance Breaker : démarrage (ollama)"}
+{"at":"2026-11-12T15:15:38.548Z","message":"Compliance Breaker : terminé, preuve 7fcd93b6fe87"}
+{"at":"2026-11-12T15:15:38.549Z","message":"Impact & Risk Scoring : démarrage (ollama)"}
+{"at":"2026-11-12T15:15:43.392Z","message":"Impact & Risk Scoring : terminé, preuve dac2bea9e4bb"}

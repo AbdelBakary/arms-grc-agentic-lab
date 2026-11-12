@@ -4,6 +4,17 @@ Atelier de conformité et finance agentique : cinq agents spécialisés, deux at
 
 **Périmètre fictif.** ARMS est ici un petit système de détection de fraude construit pour le TP. Aucun système, contrôle ou jeu de données réel de BNP Paribas n’est évalué. Les identifiants, transactions et fournisseurs sont synthétiques.
 
+## Rendu vérifié et démonstration
+
+- [Mini vidéo de démonstration](demo/arms-demo.mp4) : **1 min 21**, muette et annotée en français. Elle montre un run Ollama réel, sans accélération, puis résultats, architecture, preuves et GRC.
+- [Support PDF, 3 diapositives](demo/ARMS-3-diapositives.pdf).
+- [Projet vidéo reproductible](demo/projet-demo.zip) : captures sources, montage horodaté et script Python.
+- [Relecture du sujet actualisé](docs/relecture-tp.txt) et [consigne mise à jour](docs/sujet-actualise.txt).
+
+Le sujet actualisé ajoute explicitement le lien GitHub avec agents fonctionnels et une mini vidéo, à remettre au plus tard dimanche à 23 h 30, heure de Paris. La relecture du 12 novembre confirme la couverture des cinq rôles, des deux scénarios et des trois diapositives. Le run filmé est `2026-11-12T15-15-13-789Z` et son rapport est archivé dans `reports/`.
+
+Le dépôt est privé : **donner au professeur un accès de lecture avant la remise**. La création du dépôt et de la vidéo ne constitue pas un envoi au professeur.
+
 ## Démarrer sur ce Mac
 
 Double-cliquer sur **Lancer.command**, puis ouvrir **http://localhost:8502**. Le raccourci utilise les dépendances déjà installées dans le dossier voisin `tp-cyber/`. Il démarre Ollama si nécessaire, puis Streamlit. Choisir « Ollama · agents IA » et lancer les cinq agents.
@@ -92,7 +103,7 @@ Priorité P0 : vérifier l’intégrité avant inférence et contrôler la promo
 - `docs/sujet-original.txt` : copie du sujet remis.
 - `docs/verification.txt` : contrôles réellement exécutés pendant la préparation.
 
-Le support demandé comporte exactement trois diapositives : architecture, scénarios, conclusions. Il est fourni séparément dans la présentation enregistrée. Ajouter le lien du dépôt GitHub final au support après publication.
+Le support demandé comporte exactement trois diapositives : architecture, scénarios, conclusions. Le PDF est disponible dans `demo/ARMS-3-diapositives.pdf` et contient le lien GitHub du code source.
 
 ## Provenance et publication
 
