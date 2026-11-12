@@ -13,3 +13,7 @@ reports/latest.tmp
 reports/last-error.json
 reports/*.log
 .cache/
+docs/sujet-original.txt
+docs/relecture-tp.txt
+reports/2026-11-12T14-52-15-296Z/
+reports/2026-11-12T15-03-42-435Z/

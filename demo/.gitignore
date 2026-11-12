@@ -1,3 +1,5 @@
-project/build/
-project/assets/
-project/render.log
+project/
+slides/
+projet-demo.zip
+index.html
+verification-video.json

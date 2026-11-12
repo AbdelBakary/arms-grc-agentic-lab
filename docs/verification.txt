@@ -1,34 +1,32 @@
-VÉRIFICATIONS EFFECTUÉES LE 12 NOVEMBRE 2026
+VÉRIFICATION DU RENDU — 12 NOVEMBRE 2026
 
-TypeScript : npm run typecheck, succès.
-Tests : npm test, 6 tests réussis.
-Outils : npm run lab, 5 étapes terminées, 4 versions de scénarios.
-IA locale : npm run agents, 5 agents terminés avec Ollama et le SDK Vercel.
-Chaque agent a appelé exactement une fois son outil, puis produit un commentaire.
-Run IA de référence : 2026-11-12T15-03-42-435Z.
-Ollama 0.40.16 ; modèle arms-qwen3 dérivé de qwen3:0.6b ; CPU.
-Interface : AppTest Streamlit sans exception, 4 métriques.
-Interface : vérification visuelle dans le navigateur.
-Support : exactement 3 diapositives rendues et contrôlées visuellement.
+Consigne : cinq agents fonctionnels sur GitHub, mini vidéo démo et trois
+diapositives maximum. Remise dimanche à 23 h 30, heure de Paris.
+
+CONTRÔLES RÉUSSIS
+- TypeScript : npm run typecheck.
+- Six tests : npm test (6 réussis, aucun échec).
+- Nouveau run réel Ollama : 2026-11-12T15-35-43-705Z.
+- Les cinq agents ont chacun appelé leur outil une fois et produit une sortie.
+- Quatre versions testées : cyber et poisoning, avant et après correction.
+- Interface Streamlit contrôlée sans exception, quatre métriques présentes.
 
 MESURES
-Cyber vulnérable : 16 fraudes manquées / 20, exposition 324 500 €.
-Cyber corrigé : 0 fraude manquée, 16 rejets d’intégrité.
-Poisoning vulnérable : 20 fraudes manquées / 20, exposition 392 500 €.
-Poisoning corrigé : 0 fraude manquée, entraînement non approuvé refusé.
-Faux positifs : 0 / 20 dans chacune des quatre versions.
+- Cyber : 16 fraudes manquées avant correction, zéro après.
+- Poisoning : 20 fraudes manquées avant correction, zéro après.
+- Chaque version teste 20 fraudes et 20 transactions légitimes.
+- Zéro faux positif sur cet échantillon dans chacune des quatre versions.
+
+LIVRABLES
+- demo/arms-demo.mp4 : 81,27 s, H.264 720×1280, muet et annoté.
+- Vidéo issue du run filmé 2026-11-12T15-15-13-789Z ; ses preuves sont archivées.
+- Décodage intégral des 1 219 images et lecture navigateur jusqu’à la fin.
+- demo/ARMS-3-diapositives.pdf : trois pages, rendues et vérifiées.
+- README : liens directs vers vidéo, PDF, code, installation et preuves.
 
 LIMITES
-Modèle LLM léger : les commentaires bruts peuvent contenir des erreurs de chiffres
-ou de formulation. Ils sont affichés comme non validés. Le code, les graphiques,
-le support final et les scores utilisent exclusivement les mesures des outils.
-Ces résultats ne prouvent ni conformité générale ni robustesse de production.
-
-RELECTURE DU SUJET ET DÉMONSTRATION
-Sujet relu le 12 novembre : ajout d’une mini vidéo obligatoire et du lien Ollama.
-Nouveau run IA filmé : 2026-11-12T15-15-13-789Z, cinq outils exécutés avec succès.
-Typecheck et six tests de nouveau réussis.
-MP4 : 81,266667 secondes, 720×1280, H.264, 15 images/s, sans audio.
-Décodage intégral des 1219 images réussi et lecture du fichier jusqu’à la fin.
-PDF : trois pages, rendues et vérifiées, lien GitHub sur la dernière page.
-Projet de montage reproductible : demo/projet-demo.zip.
+Laboratoire fictif et échantillon synthétique limité. Les mesures des outils
+font référence ; les commentaires bruts du petit modèle ne sont pas validés.
+La conformité de production et une installation sur toute autre machine
+ne sont pas garanties par ces tests. Les prérequis du clone sont documentés.
+Le professeur doit disposer d’un accès au dépôt privé avant la remise.
