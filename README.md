@@ -1,15 +1,11 @@
 # ARMS : Red Team agentique GRC
 
-TP réalisé à partir du [template du professeur](https://github.com/scortalabs/epitalab), commit `1b38bb11393aa6da843e11b583b657b86c27b4b2`.
 
 ## Rendu
-
-- **Code des cinq agents** : [`src/agents.ts`](src/agents.ts).
 - **[Mini vidéo démo](demo/arms-demo.mp4)** : 1 min 21, muette et annotée, avec une exécution réelle des cinq agents via Ollama.
 - **[Trois diapositives en PDF](demo/ARMS-3-diapositives.pdf)** : architecture, scénarios et conclusions.
 - [Sujet actualisé](docs/sujet-actualise.txt) et [vérifications effectuées](docs/verification.txt).
 
-Remise : dimanche à **23 h 30, heure de Paris**. Le dépôt est privé : donner au professeur un accès de lecture avant de transmettre le lien.
 
 ## Installation et lancement
 
