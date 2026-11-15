@@ -2,7 +2,7 @@
 
 
 ## Rendu
-- **[Mini vidéo démo](demo/arms-demo.mp4)** : 1 min 36 : nouvel enregistrement personnel, avec sa piste audio d’origine.
+- **[Mini vidéo démo](demo/arms-demo.mp4)** : 1 min 36 : nouvel enregistrement personnel, sans son.
 - **[Trois diapositives en PDF](demo/ARMS-3-diapositives.pdf)** : architecture, scénarios et conclusions.
 - [Sujet actualisé](docs/sujet-actualise.txt) et [vérifications effectuées](docs/verification.txt).
 
