@@ -2,7 +2,7 @@
 
 
 ## Rendu
-- **[Mini vidéo démo](demo/arms-demo.mp4)** : 1 min 21, muette et annotée, avec une exécution réelle des cinq agents via Ollama.
+- **[Mini vidéo démo](demo/arms-demo.mp4)** : 1 min 36 : nouvel enregistrement personnel, avec sa piste audio d’origine.
 - **[Trois diapositives en PDF](demo/ARMS-3-diapositives.pdf)** : architecture, scénarios et conclusions.
 - [Sujet actualisé](docs/sujet-actualise.txt) et [vérifications effectuées](docs/verification.txt).
 
@@ -84,6 +84,6 @@ Les règles sont un catalogue revu, sans veille juridique en temps réel. Les co
 | `src/schedule.ts` | Planification locale |
 | `dashboard/app.py` | Interface Streamlit et export des preuves |
 | `reports/latest.json` | Dernier run réussi et mode d’exécution |
-| `reports/2026-11-12T15-15-13-789Z/` | Preuves archivées du run filmé |
+| `reports/2026-11-12T15-15-13-789Z/` | Preuves archivées de l’exécution initiale |
 
 Les dossiers de compétences et les fichiers de consignes proviennent du template du professeur. Le dépôt de remise exclut les dépendances installées, poids des modèles, clés privées, caches et fichiers de montage intermédiaires.
